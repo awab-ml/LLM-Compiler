@@ -1,0 +1,27 @@
+# Core LangChain dependencies
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.20
+langchain-core>=0.1.0
+langgraph>=0.0.20
+
+# LangSmith for tracing
+langsmith>=0.0.80
+
+# Tools
+tavily-python>=0.3.0
+numexpr>=2.8.0
+
+# Core utilities
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Development dependencies
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# Optional: for better formatting
+black>=23.0.0
+ruff>=0.1.0
