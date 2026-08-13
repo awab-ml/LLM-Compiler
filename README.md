@@ -1,3 +1,5 @@
+
+
 # LLMCompiler
 
 An implementation of LLMCompiler using LangGraph - an agent architecture designed to speed up agentic tasks through eager execution within a DAG while reducing costs by minimizing redundant LLM calls.
@@ -22,7 +24,8 @@ User Query → Planner → Task Scheduler → Joiner → Response/Replan
 
 1. Clone the repository:
 ```bash
-cd /home/awab-ml/Downloads/LLMcompiler
+git clone https://github.com/awab-ml/LLM-Compiler.git
+cd LLM-Compiler
 ```
 
 2. Create a virtual environment:
